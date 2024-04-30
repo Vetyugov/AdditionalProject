@@ -1,2 +1,9 @@
-package ru.netology.vetyugov.mipt.config;public class ApplicationConfig {
+package ru.netology.vetyugov.mipt.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableAsync;
+
+@Configuration
+@EnableAsync
+public class ApplicationConfig {
 }

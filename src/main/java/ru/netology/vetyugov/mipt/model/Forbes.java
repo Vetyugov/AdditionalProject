@@ -9,7 +9,7 @@ import lombok.ToString;
 @Getter
 @Builder
 @ToString
-public class ForbesDto {
+public class Forbes {
     private int rank;
     private String name;
     private float netWorth;
